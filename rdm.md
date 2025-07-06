@@ -51,6 +51,17 @@ Playbook разделены на три для каждой из задач:
     
     vector.toml - шаблон работы vector
     
+## Принципы действия playbooks
 
+### lighthouse.yml
+
+1. Произовдится установка веб-сервера nginx
+2. Производится скачивание архива из github-репозитория "https://github.com/VKCOM/lighthouse/archive/refs/heads/master.zip"
+3. Архив распаковывается в папку /var/www/lighthouse
+4. Из папки template переносится конфигурация запуска сервера nginx.
+
+### clickhouse.yml
+
+### vector.yml
 
 
